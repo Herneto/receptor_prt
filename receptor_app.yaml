@@ -1,0 +1,14 @@
+prt:
+  host: 127.0.0.1 
+  port: 4002
+  session_id: 93500101
+
+api:
+   payment_url: http://localhost:3000/v1/prt
+   request_param: "prt_request"
+   response_param: "id"
+   pool_size: 20
+
+logging:
+   log_file: "receptor_app.log"
+   log_level: "INFO"
